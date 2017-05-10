@@ -2516,6 +2516,11 @@
 				padding: 0 0.65em 0 0;
 			}
 
+			ul.icons2 li{
+				display: inline-block;
+				padding: 0 1.5em 0 1.5em;
+			}
+
 				ul.icons li:last-child {
 					padding-right: 0 !important;
 				}
