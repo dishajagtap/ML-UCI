@@ -1685,7 +1685,7 @@
 		-ms-transition: color 0.2s ease, border-bottom 0.2s ease;
 		transition: color 0.2s ease, border-bottom 0.2s ease;
 		text-decoration: none;
-		border-bottom: dotted 1px;
+/*		border-bottom: dotted 1px;*/
 		color: inherit;
 	}
 
@@ -3226,6 +3226,8 @@
 				#header.alt {
 					padding: 3.5em 1em 0.5em 1em ;
 				}
+            
+    
 
 		}
 
@@ -3827,13 +3829,45 @@
 	text-align: left;
 }
 
+#footer-events {
+	text-align: center;
+}
+
 #fifth .major{
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
 
 #footer section{
-	margin: 0 1em 0 1em;
+/*	margin: 0 1em 0 1em;*/
 	padding: 0 1em 0 0.3em;
+    margin: auto;
 
 }
+
+#footer-events section{
+/*	margin: 0 1em 0 1em;*/
+	padding: 0 1em 0 0.3em;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.card {
+    margin: auto;
+}
+
+.card-body{
+    padding: 5%;
+}
+
+.card-img-top{
+    width: 30rem;
+    height: 30rem;
+}
+
+.responsive-img{
+    margin: auto;
+}
+
