@@ -2511,25 +2511,25 @@
 			padding-left: 0;
 		}
 
-			ul.icons li {
-				display: inline-block;
-				padding: 0 0.65em 0 0;
+        ul.icons li {
+            display: inline-block;
+            padding: 0 0.65em 0 0;
 			}
 
-			ul.icons2 li{
-				display: inline-block;
-				padding: 0 1.5em 0 1.5em;
-			}
+        ul.icons2 li{
+            display: inline-block;
+            padding: 0 1.5em 0 1.5em;
+        }
 
-				ul.icons li:last-child {
-					padding-right: 0 !important;
-				}
+        ul.icons li:last-child {
+            padding-right: 0 !important;
+        }
 
-				#third img{
-					border-radius: 100%;
-					height: 200px;
-					width: 200px;
-				}
+        #third img{
+            border-radius: 100%;
+            height: 200px;
+            width: 200px;
+        }
 
 		ul.actions {
 			cursor: default;
@@ -3856,6 +3856,7 @@
 
 .card {
     margin: auto;
+    margin-bottom: 3rem;
 }
 
 .card-body{
@@ -3863,11 +3864,21 @@
 }
 
 .card-img-top{
-    width: 30rem;
-    height: 30rem;
+    width: auto;
+    height: auto;
+    max-width: 30rem;
+    max-height: 30rem;
 }
 
 .responsive-img{
     margin: auto;
+}
+
+.sponsor{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
